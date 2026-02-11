@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cricket Player Registration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
+    padding:20px;
+}
+.form-box{
+    max-width:500px;
+    background:#fff;
+    padding:25px;
+    margin:auto;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+h2{
+    text-align:center;
+    color:#2c5364;
+}
+label{
+    font-weight:bold;
+    display:block;
+    margin-top:15px;
+}
+input,select{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+button{
+    width:100%;
+    padding:12px;
+    margin-top:25px;
+    background:#2c5364;
+    color:white;
+    font-size:16px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+button:hover{
+    background:#203a43;
+}
+</style>
+</head>
+
+<body>
+
+<div class="form-box">
+<h2>🏏 Cricket Player Registration</h2>
+
+<form>
+<label>Full Name</label>
+<input type="text" placeholder="Enter full name" required>
+
+<label>Date of Birth</label>
+<input type="date" required>
+
+<label>Age</label>
+<input type="number" placeholder="Enter age">
+
+<label>Team Name</label>
+<input type="text" placeholder="Enter team name">
+
+<label>Playing Role</label>
+<select>
+<option>Batsman</option>
+<option>Bowler</option>
+<option>All-Rounder</option>
+<option>Wicket Keeper</option>
+</select>
+
+<label>Batting Style</label>
+<select>
+<option>Right Hand</option>
+<option>Left Hand</option>
+</select>
+
+<label>Bowling Style</label>
+<input type="text" placeholder="Fast / Spin / NA">
+
+<label>Mobile Number</label>
+<input type="tel" placeholder="Enter mobile number" required>
+
+<label>WhatsApp Number</label>
+<input type="tel" placeholder="Enter WhatsApp number">
+
+<label>City / Area</label>
+<input type="text" placeholder="Enter city">
+
+<button type="submit">Register Player</button>
+</form>
+
+</div>
+
+</body>
+</html>
